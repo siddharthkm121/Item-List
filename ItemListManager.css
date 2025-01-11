@@ -1,0 +1,54 @@
+/* ItemListManager.css */
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #0c0f0c;
+  }
+  
+  .input-container {
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px 0;
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+    border-bottom: none;
+}
